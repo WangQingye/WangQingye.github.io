@@ -1,7 +1,165 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>欢迎来到王清野个人小站</p>
-</body>
+    <head>
+        <meta charset="utf-8" />
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>王清野的简历</title>
+        <link rel="shortcut icon" href="img/W1.ico" />
+        
+        <link rel="stylesheet" href="vendor/jquery.pagepiling.css" type="text/css" />
+        
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="scss/_settings.links.scss">
+    </head>
+    
+    <body>
+        <div id="lang-panel">
+            <a class="lang selected" href="#">中</a>
+            <a class="lang" href="en.html">En</a>
+        </div>
+        <div id="pagepiling">
+            <div class="section center" id="home">
+                <img id="avatar" src="img/avatar.jpg" />
+                <h1 id="title">王清野</h1>
+                <p id="subtitle">一腔热血的激情 · 一夜失眠的创意 · 一个像素的执着</p>
+                <h4>前端工程师</h4>
+
+                <h6><a href="http://zbk.baicizhan.com" target="_blank">百词斩-番茄英语</a></h6>
+                <p><a href="#">wqyfed@gmail.com</a></p>
+            </div>
+            
+            <div class="section" id="project">
+                <h1>项目经验</h1>
+                <div class="row">
+                    <div class="col-2 center">
+                        <a class="circle-img" href="http://zbk.baicizhan.com" target="_blank">
+                            <img src="img/zhujianer.png" alt="Polyvia" />
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <h2><a href="http://zbk.baicizhan.com" target="_blank">番茄英语</a></h2>
+                        <p>一款通过真人实景学习英语的APP，负责实现官方网站的构建，APP内Hybrid App(混合模式移动应用)的实现。</p>
+                    </div>
+                    <div class="col-2 center">
+                        <a class="circle-img" href="http://wangqingye.com/H5Component/" target="_blank">
+                            <img src="img/jwebaudio.png" alt="番茄英语" />
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <h2><a href="http://wangqingye.com/H5Component/" target="_blank">番茄英语数据报告</a></h2>
+                        <p>运用HTML5（canvas）、CSS3、JS流行技术，采用组件式开发模式，一个不同类型的Html5动态数据报告。 </p>
+                    </div>
+                    <div class="clearboth"></div>
+                </div>
+                <div class="row">
+                    <div class="col-2 center">
+                        <a class="circle-img" href="http://wangqingye.com/WebApp-Reader/" target="_blank">
+                            <img src="img/book.png" alt="book" />
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <h2><a href="http://wangqingye.com/WebApp-Reader/" target="_blank">移动webapp电子阅读器</a></h2>
+                        <p>运用了ES6/HTML5的一些新特性，配合Ajax请求，实现了手机端阅读器的基本操作，可以阅读图书内容，可以设置字号大小（可本地记忆），字体颜色，背景颜色，夜间阅读模式等功能。</p>
+                    </div>
+                    <div class="col-2 center">
+                        <a class="circle-img" href="http://wangqingye.com/Responsive-web-page/" target="_blank">
+                            <img src="img/chrome.png" alt="Chrome Extensions" />
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <h2><a href="http://wangqingye.com/Responsive-web-page/" target="_blank">响应式网页开发</a></h2>
+                        <p>利用CSS的媒体查询和随设备变化的rem布局，用一套代码开发出不受设备型号、尺寸限制的互联网网站</p>
+                    </div>
+                    <div class="clearboth"></div>
+                </div>
+                <p class="center">更多精彩，敬请移步 <a href="http://github.com/WangQingye" target="_blank" class="highlight">GitHub</a></p>
+            </div>
+            
+            <div class="section center" id="profession">
+                <h1>擅长技术</h1>
+                <div class="tag-panel">
+                    <div class="tag expert">HTML5</div>
+                    <div class="tag expert">CSS</div>
+                    <div class="tag expert">JavaScript</div>
+                </div>
+                <div class="tag-panel">
+
+                    <div class="tag expert">jQuery</div>
+                    <div class="tag expert">Bootstrap</div>
+                    <div class="tag familiar">Ajax</div>
+                    <div class="tag familiar">AngularJs</div>
+                    <div class="tag familiar">Node.js</div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag expert">Git</div>
+                    <div class="tag familiar">SCSS</div>
+                    <div class="tag familiar">Gulp</div>
+
+                </div>
+                <div class="tag-panel">
+                    <div class="tag familiar">网页设计</div>
+                    <div class="tag expert">动画设计</div>
+                    <div class="tag familiar">音视频编辑</div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag expert">PhotoShop</div>
+                    <div class="tag expert">Illustrator</div>
+                    <div class="tag expert">After Effects</div>
+                </div>
+            </div>
+            
+            <div class="section center">
+                <h1>教育背景</h1>
+                <h4>西南石油大学 本科生</h4>
+                <p>机电工程专业</p>
+                <h3>毕业设计</h3>
+                <p>《PDC钻头设计参数数据库建立及应用》</p>
+                <p>基于UG的二次开发，利用My SQL server建立一个能够快速取用数据的PDC钻头设计参数数据库</p>
+            </div>
+            
+            <div class="section center">
+                <h1>工作经历</h1>
+                <h4>百词斩 前端开发</h4>
+                <p>2016年6月 - 2016年12月</p>
+                <p>负责 <a href="http://zbk.baicizhan.com" target="_blank">番茄英语</a>的官网搭建和APP内hybird app应用的实现</p>
+                <p>相关技术：HTML,CSS,JS,jQuery,Node.js,Git,Gulp</p>
+
+
+                <h4>华润燃气有限公司 IT技术员/兼职动画师</h4>
+                <p>2015年7月 - 2016年3月</p>
+                <p>负责管理公司的多媒体设备及整个片区16W用户信息的GIS系统，业余时间制作网页与动画，部分动画作品上传在了<a href="http://www.zcool.com.cn/u/14762518/index.html"
+                                                                           target="_blank">站酷</a>。</p>
+
+            </div>
+            
+            <div class="section center">
+                <h1>关于我</h1>
+                <h3>停不下来的学习</h3>
+                <h4>对新技术的敏感和好奇</h4>
+                <p>良好的英语阅读能力</p>
+                <p>轻微的代码强迫症</p>
+                <h4>走在成为一个极客的路上</h4>
+            </div>
+            
+            <div class="section center">
+                <h1>了解更多</h1>
+                <h2><a href="http://wangqingye.com/" target="_blank">个人主页</a> | <a href="https://github.com/WangQingye" target="_blank">Github</a></h2>
+                <p>电话/微信: <a href="#">13648002084</a></p>
+                
+                <h2><a href="Web Front-End Qingye Wang.pdf" target="_blank" class="highlight">下载简历</a></h2>
+
+                <h4>衷心感谢您花费宝贵的时间阅读我的简历~</h4>
+                <h6>恭祝生活愉快，工作顺利！</h6>
+            </div>
+
+       <!-- <link rel="stylesheet" href="../blog/css/font.css" type="text/css" />-->
+        
+        <!--<script src="js/jquery.min.js"></script>-->
+        <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../blog/js/jquery-1.11.1.min.js"><\/script>');</script>
+        <script type="text/javascript" src="vendor/jquery.pagepiling.min.js"></script>        
+        <script type="text/javascript" src="js/index.min.js"></script>
+    </body>
 </html>
