@@ -2,7 +2,7 @@
 
 #### Web Front-End Engineer
 
-![](https://raw.githubusercontent.com/Ovilia/cv/gh-pages/img/cv.png)
+![](https://github.com/WangQingye/WangQingye.github.io/blob/master/img/Fed-WangQingye.png?raw=true)
 
 ### Online Version
 
