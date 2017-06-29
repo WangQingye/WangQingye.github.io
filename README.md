@@ -1,10 +1,8 @@
-# CV of Wenli Zhang
+# CV of Qingye Wang
 
 #### Web Front-End Engineer
 
 ![](https://raw.githubusercontent.com/Ovilia/cv/gh-pages/img/cv.png)
-
-Designed and Implemented by Wenli Zhang
 
 ### Online Version
 
